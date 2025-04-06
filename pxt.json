@@ -4,7 +4,9 @@
     "dependencies": {
         "device": "*",
         "arcade-background-scroll": "github:microsoft/arcade-background-scroll#v0.1.2",
-        "color-coded-tilemap": "*"
+        "color-coded-tilemap": "*",
+        "storyboard": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3"
     },
     "files": [
         "main.blocks",
@@ -18,7 +20,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "2.0.40",
+        "target": "2.0.48",
         "targetId": "arcade"
     },
     "supportedTargets": [
